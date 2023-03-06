@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+<nav class="navbar navbar-expand navbar-lights topbar mb-4 static-top shadow" style="backgroun-color:#FF7F50">
     <div class="text-center d-none d-md-inline">
-        <button class="border-0 bg-white" id="sidebarToggle">
+        <button class="border-0" id="sidebarToggle">
             <i class="fa fa-bars"></i>
         </button>
     </div>

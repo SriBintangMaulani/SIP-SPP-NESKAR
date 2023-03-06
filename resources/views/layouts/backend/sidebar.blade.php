@@ -1,16 +1,17 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:rgb(243, 128, 107);">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('home.index')}}">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-money-check-alt"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+              </svg>
         </div>
-        <div class="sidebar-brand-text mx-3">Bayar <sup>SPP</sup></div>
+        <div class="sidebar-brand-text mx-3">SIP <sup>SPP</sup></div>
     </a>
 
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
-
     @role('admin')
     <!-- Nav Item - Dashboard -->
     <li class="nav-item {{ Request::segment(1) == 'home' ? 'active' : '' }}">

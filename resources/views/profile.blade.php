@@ -10,7 +10,7 @@
 		<div class="card-header">
 			Profil
 		</div>
-		<div class="card-body">		
+		<div class="card-body">
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="form-group">
@@ -44,7 +44,7 @@
 		<div class="card-header">
 			Profil
 		</div>
-		<div class="card-body">		
+		<div class="card-body">
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="form-group">
@@ -112,7 +112,7 @@
 					@enderror
 				</div>
 				<div class="form-group">
-					<button type="submit" class="btn btn-primary"><i class="fas fa-save fa-fw"></i> 
+					<button type="submit" class="btn btn-primary"><i class="fas fa-save fa-fw"></i>
 						UBAH PASSWORD
 					</button>
 				</div>

@@ -13,7 +13,7 @@
 		@role('siswa')
 		  <h1 class="display-4">Hello, {{ Universe::siswa()->nama_siswa }}!</h1>
 		@endrole
-		  <p class="lead">Selamat datang di Web Bayar SPP.</p>
+		  <p class="lead">Selamat datang di Web Bayar Sip-SPP.</p>
 		  <hr class="my-4">
 		</div>
 	</div>
